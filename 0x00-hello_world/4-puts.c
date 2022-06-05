@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - main block
- * return: 0
+ * main- main block
+ *
+ * Return:Always 0 (Success)
  */
+
 int main(void)
 {
 char strl[] = "\"Programming is like building a multilingual puzzle";

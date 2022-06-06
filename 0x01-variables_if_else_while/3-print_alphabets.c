@@ -1,17 +1,16 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet.
- * am from Ethiopia
- * Return: Always 0 (Success)
+ * main - Prints the alphabet in lowercase, and then in uppercase.
+ *
+ * Return: Always 0.
  */
-int main(void)
+int main(void)  
 {
-char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int i;
-for (i = 0; i < 52; i++)
-{
-putchar(alp[i])
-}
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
+for (letter = 'A'; letter <= 'Z'; letter++)
+putchar(letter);
 putchar('\n');
-return (0);
+return (0); 
 }

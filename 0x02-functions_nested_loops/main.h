@@ -1,3 +1,10 @@
+/**
+ * File: main.h
+ * dannyy
+ * Desc: Header file containing declarations for all function
+ *  used in the 0x02-functions_nested_loops directory.
+ */
+int _putchar(char c);
 int _putchar(int c);
 void print_alphabet(void);
 void print_alphabet_x10(void);

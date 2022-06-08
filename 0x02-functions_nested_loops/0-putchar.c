@@ -1,11 +1,8 @@
 #include "main.h"
 /**
- * main - Prints "putchar" followed by a new line
+ * main - Entry point
  *
- * @void: no argument
- *
- * Return: Always 0.
- *
+ * Return: Alway 0 (Success)
  */
 int main(void)
 {

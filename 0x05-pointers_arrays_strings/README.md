@@ -1,1 +1,1 @@
-Readme will be updated later
+C - Pointers, arrays and strings
